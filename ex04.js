@@ -5,3 +5,5 @@ function estNegatif(nombre) {
 
 console.log(estNegatif(-3)); // Résultat attendu : true
 console.log(estNegatif(5)); // Résultat attendu : false
+console.log(estNegatif(-0)); // Résultat attendu : false
+console.log(estNegatif(0)); // Résultat attendu : false

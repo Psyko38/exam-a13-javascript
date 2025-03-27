@@ -3,3 +3,4 @@ function nombreLettres(mot) {
 }
 
 console.log(nombreLettres("chat")); // Résultat attendu : 4
+console.log(nombreLettres("pumma")); // Résultat attendu : 5
