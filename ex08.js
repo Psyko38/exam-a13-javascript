@@ -1,7 +1,7 @@
 function multiplierParDeux(tab) {
 	let NewTab = [];
 	for (let i of tab) {
-		NewTab.push(i * 2);
+		NewTab.push(parseFloat(i) * 2);
 	}
 	return NewTab;
 }
